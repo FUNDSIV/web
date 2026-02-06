@@ -1,67 +1,35 @@
+# FUNDSIV – Fundación de Desarrollo Integral 🌱  
+📍 El Coca – Orellana, Ecuador  
+
+Sitio web institucional de la **Fundación de Desarrollo Integral (FUNDSIV)**, diseñado para brindar información clara, moderna y profesional sobre los programas académicos, docentes, ubicación y contacto de la institución.
 
 ---
 
-## ⚙️ Tecnologías utilizadas
+## 🎯 Objetivo del sitio
 
-- HTML5  
-- CSS3 (Responsive Design)  
-- JavaScript  
-- Google Fonts  
-- WhatsApp API  
-- Google Maps  
-- Google Forms / Drive  
+El objetivo principal de esta página web es:
 
----
-
-## 🌐 Funcionalidades
-
-- Diseño responsive (móvil, tablet, PC).
-- Botón flotante de WhatsApp.
-- Video institucional de bienvenida.
-- Sección de docentes con fotos.
-- Carreras con botones interactivos.
-- Galería de imágenes.
-- Formulario conectado a Google Drive.
-- Mapa de ubicación.
-- Enlaces a redes sociales.
+- Promocionar los cursos y programas académicos.
+- Generar confianza institucional.
+- Facilitar el contacto con estudiantes.
+- Recopilar datos mediante formularios.
+- Posicionar a FUNDSIV como líder educativo en la región.
 
 ---
 
-## 📲 Contacto
+## 🏫 Información institucional
 
-WhatsApp institucional:  
-📞 **0958711832**
+FUNDSIV es una fundación educativa que brinda formación técnica y profesional con enfoque práctico y social, orientada al desarrollo personal, laboral y comunitario.
 
-Ubicación:  
-📍 El Coca – Provincia de Orellana, Ecuador  
-Segundo piso.
+### Programas principales:
 
----
-
-## 🚀 Recomendaciones
-
-- Subir imágenes reales de estudiantes y docentes.
-- Mantener redes sociales activas.
-- Actualizar promociones cada mes.
-- Publicar testimonios reales.
-- Agregar certificados descargables.
+- Auxiliar de Enfermería  
+- Auxiliar de Farmacéutica  
+- Computación (Básico a Avanzado)  
+- Contabilidad  
+- Tecnologías y áreas afines  
 
 ---
 
-## 🧠 Futuras mejoras
+## 🧩 Estructura del proyecto
 
-- Plataforma virtual (LMS).
-- Panel de administración.
-- Inscripciones online.
-- Chatbot de atención.
-- Certificados digitales.
-
----
-
-## 📌 Lema institucional
-
-> *Educación que transforma vidas.*
-
----
-
-Desarrollado para uso exclusivo de FUNDSIV – Fundación de Desarrollo Integral.
