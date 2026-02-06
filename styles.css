@@ -1,0 +1,258 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f2f6fb;
+}
+
+#header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 60px;
+background:rgba(10,47,90,.9);
+color:white;
+position:fixed;
+width:100%;
+z-index:1000;
+transition:.3s;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.logo img{
+height:45px;
+}
+
+nav a{
+color:white;
+margin-left:25px;
+text-decoration:none;
+font-weight:500;
+}
+
+.social-docente{
+margin-top:10px;
+display:flex;
+justify-content:center;
+gap:15px;
+}
+
+.social-docente a{
+color:#0a2f5a;
+font-size:18px;
+transition:.3s;
+}
+
+.social-docente a:hover{
+color:#7ed957;
+transform:scale(1.2);
+}
+
+.video-box{
+max-width:800px;
+margin:40px auto;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 15px 30px rgba(0,0,0,.2);
+}
+
+.video-box video{
+width:100%;
+}
+
+
+.social-footer{
+margin-top:15px;
+display:flex;
+justify-content:center;
+gap:20px;
+}
+
+.social-footer a{
+color:white;
+font-size:20px;
+transition:.3s;
+}
+
+.social-footer a:hover{
+color:#7ed957;
+transform:translateY(-5px);
+}
+
+
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+url("https://images.unsplash.com/photo-1524995997946-a1c2e315a42f");
+background-size:cover;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+text-align:center;
+}
+
+.hero-content h1{
+font-size:50px;
+}
+
+.btn{
+margin-top:20px;
+padding:15px 35px;
+background:#7ed957;
+color:#003366;
+border-radius:40px;
+display:inline-block;
+text-decoration:none;
+font-weight:bold;
+}
+
+.section{
+padding:100px 12%;
+text-align:center;
+}
+
+.bg{
+background:white;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.card{
+background:#eaf1f8;
+padding:30px;
+border-radius:20px;
+box-shadow:0 10px 20px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.glass{
+background:rgba(255,255,255,.4);
+backdrop-filter:blur(10px);
+}
+
+.btn-curso{
+display:inline-block;
+padding:10px 25px;
+background:#0a2f5a;
+color:white;
+border-radius:25px;
+text-decoration:none;
+font-weight:500;
+transition:.3s;
+}
+
+.btn-curso:hover{
+background:#7ed957;
+color:#003366;
+transform:scale(1.05);
+}
+
+.docentes-grid{
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+}
+
+.docente-card{
+text-align:center;
+padding:30px 20px;
+}
+
+.docente-card img{
+width:140px;
+height:140px;
+object-fit:cover;
+border-radius:50%;
+border:5px solid #7ed957;
+margin-bottom:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.2);
+transition:.3s;
+}
+
+.docente-card:hover img{
+transform:scale(1.08);
+}
+
+.docente-card h3{
+margin-top:10px;
+font-size:18px;
+color:#0a2f5a;
+}
+
+.docente-card p{
+font-size:14px;
+margin:5px 0;
+}
+
+.docente-card span{
+font-size:13px;
+color:#666;
+}
+
+
+
+form{
+max-width:400px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+input,select,button{
+padding:14px;
+border-radius:10px;
+border:1px solid #ccc;
+}
+
+button{
+background:#0a2f5a;
+color:white;
+font-weight:bold;
+}
+
+
+
+footer{
+background:#0a2f5a;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+/* WhatsApp floating */
+
+.whatsapp-float{
+position:fixed;
+bottom:20px;
+right:20px;
+z-index:999;
+}
+
+.whatsapp-float a{
+background:#25D366;
+color:white;
+font-size:28px;
+padding:15px 18px;
+border-radius:50%;
+text-decoration:none;
+box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
